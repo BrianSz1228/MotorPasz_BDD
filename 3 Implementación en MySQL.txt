@@ -1,0 +1,23 @@
+Se deberá entregar únicamente en el repositorio los 2 archivos solicitados. Los scripts se deben entregar completos y ejecutables. Al correr el script DDL y luego el DML en MySQL Workbench, la base de datos debe crearse y poblarse sin tirar ningún tipo de error.
+
+
+
+
+
+1. Script DDL (Estructura e Índices):
+
+
+
+Archivo .sql con la creación de la base de datos, todas las tablas, claves (PK y FK) y restricciones.
+Incluir los índices en este mismo script (con CREATE INDEX o dentro de la definición de la tabla).
+Agregar al lado o al final de cada índice un comentario breve justificando qué consulta busca optimizar.
+
+
+2. Script DML (Datos de Muestra):
+
+
+
+Archivo .sql con las inserciones de datos de prueba (INSERT INTO).
+Mínimo 50 registros por cada tabla maestra (ej: Clientes, Productos, Empleados).
+Mínimo 100 registros por cada tabla de movimientos o transacciones (ej: Ventas, Detalle_Ventas).
+Usar datos realistas y coherentes con el negocio.

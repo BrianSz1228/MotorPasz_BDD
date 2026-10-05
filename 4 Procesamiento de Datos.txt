@@ -1,0 +1,20 @@
+Deberán entregar un único script .sql completo y ejecutable que contenga la creación de vistas, procedimientos almacenados y triggers de auditoría. Al correrlo sobre la base de datos creada en la entrega anterior, se deben generar las vistas, los procedimientos almacenados, las tablas de auditoría y los triggers sin arrojar ningún tipo de error.
+
+
+
+1. Vistas
+
+Creación de vistas alineadas al caso de negocio.
+Deben responder a los perfiles/roles definidos en el relevamiento (ej: ocultar datos sensibles a un rol operario) o consolidar consultas complejas recurrentes.
+
+
+2. Procedimientos Almacenados (Stored Procedures):
+
+Creación de los SP encargados de ejecutar las operaciones principales del negocio (ej: registrar una venta, procesar una reserva).
+Requisito obligatorio: Deben incluir control de transacciones (START TRANSACTION / COMMIT / ROLLBACK) y manejo de errores (DECLARE ... HANDLER o TRY...CATCH) para garantizar la integridad de los datos ante cualquier fallo.
+
+
+3. Triggers de Auditoría (Logs Automáticos):
+
+Creación de la tabla de logs/auditoría.
+Implementación de Triggers automáticos que se disparen ante cambios en datos críticos del negocio (ej: modificación de precios, borrado de registros o cambios de stock), registrando qué valor cambió, la fecha y la acción realizada.

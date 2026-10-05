@@ -1,0 +1,14 @@
+En esta instancia se deberá diseñar el modelo de datos a partir del relevamiento funcional entregado. Se deben realizar los diagramas correspondientes junto con el diccionario de datos.
+
+La entrega deberá ser a través de un ÚNICO documento en formato PDF, incluyendo los 4 puntos que se detallan a continuación:
+
+Diagrama Entidad-Relación (DER - Conceptual): Modelo conceptual que responda al negocio relevado.
+Diagrama Relacional (Lógico): Esquema relacional normalizado.
+Diagrama de Base de Datos (Físico): Diagramas con tablas, tipos de datos físicos, nulabilidad y relaciones visibles, entre otros aspectos.
+Diccionario de Datos: Planilla por cada tabla documentando sus campos bajo la siguiente estructura:
+Campo
+Tipo de Dato Físico
+Nulidad
+Clave
+Valor por Defecto
+Descripción / Regla de Negocio

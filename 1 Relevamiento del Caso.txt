@@ -1,0 +1,16 @@
+Se deberá redactar un informe de relevamiento orientado a comprender funcionalmente al cliente final. Deben entrevistar al cliente elegido y traducir sus necesidades de negocio en soluciones técnicas. Cada sección habilitará una etapa diferente del cuatrimestre. Las siguientes preguntas son mínimas y obligatorias para redactar el informe.
+
+
+
+¿Cuáles son los actores u objetos principales del negocio sobre los que se necesita guardar información de forma obligatoria? (Ej: Clientes, Productos, Ventas, Empleados, Turnos). Detallar qué datos mínimos se necesitan de cada uno.
+Explicar cómo interactúan esas entidades entre sí.
+Preguntas clave para el cliente: ¿Un cliente puede realizar más de una compra? ¿Una compra puede incluir más de un producto? ¿Un producto puede ser provisto por varios proveedores?
+¿Qué valores no pueden permitirse bajo ningún punto de vista en el sistema? (Ej: "La edad mínima para registrarse es 18 años", "El stock nunca puede ser negativo", "El precio de venta no puede ser menor al costo").
+¿Qué personas van a usar o usan el sistema y qué datos no deberían ver? Definir al menos dos roles (ej: Administrativo y Operario)
+¿Qué tablas o columnas sensibles del negocio deberían ocultarse para cada rol mediante una capa de abstracción (Vista)?
+¿Cuál es la operación más importante y repetitiva del negocio que requiere varias validaciones antes de concretarse? (Ej: "Confirmar una reserva", "Procesar el pago de una factura", "Dar de alta un nuevo contrato"). Detallen el paso a paso de lo que ocurre cuando esa acción se ejecuta.
+¿Qué información es tan sensible que, si alguien la modifica por error o malicia, el negocio podría perder mucho dinero o control? (Ej: Cambios de precios, eliminación de registros de stock, modificación de datos de contacto de proveedores).
+Pregunta de ejemplo: Si un precio cambia hoy, ¿necesitás saber quién lo cambió, en qué fecha y cuál era el precio viejo?
+Si el dueño del negocio se va de viaje un mes y solo puede ver 3 números (Métricas/Indicadores) en su celular para saber si la empresa va bien o mal, ¿cuáles serían? (Ej: Facturación total del mes vs. mes anterior, porcentaje de ocupación de turnos, producto más devuelto por fallas).
+Esos 3 indicadores anteriores, ¿a través de qué "filtros" o perspectivas los quiere analizar la gerencia? (Ej: "Quiero ver las ventas filtradas por sucursal", "Quiero ver los turnos agrupados por rango horario", "Quiero ver la rentabilidad por categoría de producto y por provincia").
+Cuando migremos los datos del sistema del día a día hacia el tablero de reportes, ¿qué consideramos un "dato roto/inválido" que no debería ensuciar los gráficos de la gerencia? (Ej: "Ventas que tengan un cliente inexistente", "Registros con fechas del año pasado que quedaron colgadas", "Campos de texto obligatorios que estén vacíos").
