@@ -1,0 +1,26 @@
+Modalidad: Exposición oral de 10 minutos por grupo (+ 3 a 5 minutos de preguntas de la cátedra). Se deberá utilizar una presentación de soporte de máximo 7 diapositivas , priorizando la demostración del sistema en MySQL Workbench y Power BI (este último en vivo).
+
+
+
+Estructura de la Presentación
+1. Relevamiento
+Presentación breve del cliente relevado.
+Explicación del problema operativo principal y la necesidad analítica a resolver.
+2. El Modelado
+Muestra y explicación del Diagrama Entidad-Relación (DER) y Diagrama Relacional.
+3. Implementación y Procesamiento de Datos
+Triggers y Stored Procedures: Mostrar los SPs y Triggers principales creados y justificar por qué se implementaron.
+Tabla de Logs / Auditoría: Explicar la estructura de la tabla de logs creada y por qué es necesaria para el negocio.
+Seguridad: Mostrar cómo aplicaron seguridad a nivel de estructura y datos (ej. uso de vistas, permisos o capas de abstracción).
+4. Capa Analítica: DW y Curaduría
+Modelo Multidimensional: Mostrar el esquema en Estrella o Copo de Nieve diseñado para el caso particular.
+Proceso ETL (Stored Procedure): Explicar el funcionamiento de la limpieza y curaduría de datos, especificando el criterio utilizado para descartar o registrar datos corruptos.
+5. Explotación en Power BI y Trazabilidad
+Navegación en vivo por el Dashboard: Demostración interactiva del tablero en Power BI.
+KPIs y Dimensiones: Presentación de los 3 KPIs estratégicos definidos y el uso de filtros dinámicos por dimensiones.
+
+
+⚠️ Requisitos Clave para la Exposición
+Soporte visual: No exceder el límite de 7 slides. La presentación es solo una guía; el foco principal estará en el sistema funcionando y en el tablero interactivo.
+Entorno preparado: Al comenzar el turno, MySQL Workbench y Power BI deben estar abiertos y listos para ejecutar las pruebas en vivo.
+Participación: Todos los integrantes del grupo deben exponer una parte técnica del trabajo.

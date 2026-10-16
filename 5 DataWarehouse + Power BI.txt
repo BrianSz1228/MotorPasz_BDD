@@ -1,0 +1,17 @@
+En esta última etapa van a simular la capa analítica del sistema. Deberán generar un nuevo esquema de base de datos que contemple un modelo multidimensional (Estrella o Copo de Nieve) para un caso particular de negocio, procesando los datos mediante un Stored Procedure de curaduría para luego explotarlos en Power BI.
+
+Entregables Obligatorios
+1. Esquema Multidimensional (Data Warehouse):
+
+Script .sql con la creación del nuevo esquema analítico.
+Estructura definida bajo un modelo Estrella o Copo de Nieve (tabla de Hechos y Dimensiones) enfocado en un caso particular del negocio.
+2. Stored Procedure de Curaduría y Procesamiento (ETL):
+
+Script .sql con la creación de un Stored Procedure que tome los datos de las tablas del esquema inicial (operacional), realice la limpieza/curaduría necesaria y los transforme para poblar el modelo multidimensional.
+3. Dashboard en Power BI:
+
+Archivo .pbix conectado únicamente al nuevo esquema multidimensional.
+Visualización de los KPIs clave y métricas del caso particular seleccionado, aprovechando la estructura de hechos y dimensiones.
+
+
+Power BI debe consumir los datos exclusivamente del nuevo esquema (no de la base operacional). Al ejecutar el Stored Procedure de curaduría, la información del Data Warehouse debe actualizarse correctamente sin arrojar errores.
